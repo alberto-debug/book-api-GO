@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/gorilla/mux"
+)
 
 func main() {
-	fmt.Println("Hello")
-	fmt.Println("World")
+
+	r := mux.NewRouter()
 }
