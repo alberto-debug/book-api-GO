@@ -1,11 +1,10 @@
 package main
 
 import (
+	"book-api/handlers"
 	"fmt"
 	"log"
 	"net/http"
-
-	"book-api/handlers"
 
 	"github.com/gorilla/mux"
 )
