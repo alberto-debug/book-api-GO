@@ -1,5 +1,1 @@
 package handlers
-
-func main() {
-
-}
