@@ -6,8 +6,8 @@ import (
 )
 
 var books = []models.Book{
-	{ID: "1", NAME: "CyberSecurity Fundamentals", AUTHOR: "Alberto Junior", YEAR: 2025},
-	{ID: "2", NAME: "Programming Language", AUTHOR: "Alberto Manuel", YEAR: 2020},
+	{ID: "1", Title: "CyberSecurity Fundamentals", Author: "Alberto Junior", Year: 2025},
+	{ID: "2", Title: "Programming Language", Author: "Alberto Manuel", Year: 2020},
 }
 
 func GetAllBooks() []models.Book {
