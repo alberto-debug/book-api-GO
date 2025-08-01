@@ -12,11 +12,11 @@ var books = []models.Book{
 	{ID: "2", Title: "CyberSecurity", Author: "Alberto Junior", Year: 2020},
 }
 
-func getAllBooks() []models.Book {
+func GetAllBooks() []models.Book {
 	return books
 }
 
-func getBookByID(id string) (models.Book, error) {
+func GetBookByID(id string) (models.Book, error) {
 	for _, book := range books {
 
 		if book.ID == id {
