@@ -8,3 +8,7 @@ var books = []models.Book{
 
 	{ID: "2", Title: "CyberSecurity", Author: "Alberto Junior", Year: 2020},
 }
+
+func getAllBooks() []models.Book {
+	return books
+}
