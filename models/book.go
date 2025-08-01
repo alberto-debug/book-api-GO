@@ -1,8 +1,8 @@
 package models
 
-type Books struct {
+type Book struct {
 	ID     string `json:"id"`
 	NAME   string `json:"name"`
 	AUTHOR string `json:"author"`
-	YEAR   string `json:"year"`
+	YEAR   int    `json:"year"`
 }
